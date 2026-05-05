@@ -1,4 +1,4 @@
-import joblib 
+import joblib
 from src.data_loader import load_data
 from src.model import train_model,evaluate_model
 
@@ -15,4 +15,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-    
