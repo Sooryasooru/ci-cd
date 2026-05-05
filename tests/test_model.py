@@ -25,4 +25,3 @@ def test_model_evaluation():
 
     mse = evaluate_model(model, X_test, y_test)
     assert mse >= 0
-    
