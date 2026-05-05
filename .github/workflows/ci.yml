@@ -23,9 +23,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run pylint
-        run: pylint model.py
+        run: python -m pylint src/
         
       - name: Run pytest
-        run: pytest
+        run: python -m pytest tests/
     
 
