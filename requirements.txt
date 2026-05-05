@@ -1,2 +1,5 @@
 pytest
 pylint
+joblib 
+scikit-learn
+pandas
