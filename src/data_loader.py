@@ -1,6 +1,8 @@
-"""importing the path"""
+"""Data loading utilities."""
+
 import pandas as pd
 
+
 def load_data(path):
-    """load the csv file we have"""
+    """Load dataset from a CSV file."""
     return pd.read_csv(path)
